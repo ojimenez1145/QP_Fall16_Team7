@@ -7,7 +7,7 @@
 /*Image to be used as header for website*/
   <div class="header">
     <br><br>
-    <img src="Danger_Banner.jpg" alt="logo" />
+    <img src="Danger_Banner.jpg" alt="banner" />
     
 <?php
   include "navabar.html";
