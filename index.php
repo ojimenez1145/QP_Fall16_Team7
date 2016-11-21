@@ -74,6 +74,22 @@
     include "GLOBAL.php";
     include "GPIO.php";
   ?>
+  <hr>
+  <div id="map" style="width:400px;height:400px;background:yellow"></div>
+  
+  <script>
+    function myMap() {
+       var mapOptions = {
+         center: new google.maps.LatLng(32.88, 117.23),
+         zoom: 10,
+         mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  
   
   <hr>
   
